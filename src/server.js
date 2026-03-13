@@ -11,7 +11,7 @@ const PORT = 2000;
 let rows = [];
 let currentIndex = 0;
 
-loadCSV("./data/nifty_24500PE_simulated_day.csv")
+loadCSV("./data/NIFTY_10MAR26_24600_CE.csv")
   .then((data) => {
     rows = data;
     console.log("CSV loaded");
